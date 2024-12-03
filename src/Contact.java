@@ -1,3 +1,4 @@
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Contact {
@@ -8,6 +9,7 @@ public class Contact {
     String email;
     int phone;
     int zip;
+
 
 
     public Contact(String firstName, String lastName, String city, String state, String email, int phone, int zip) {

@@ -12,6 +12,6 @@ public class AddressBook <PlaceHolder>{
     }
 
     public void addContact(PlaceHolder c1){
-        adBook.add((PlaceHolder) c1);
+        adBook.add(c1);
     }
 }
