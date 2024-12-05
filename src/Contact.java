@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Contact {
+public class Contact implements Dummy1 {
     String firstName;
     String lastName;
     String city;
@@ -35,5 +35,7 @@ public class Contact {
                 '}';
     }
 
-
+    public String getFirstName() {
+        return firstName;
+    }
 }
